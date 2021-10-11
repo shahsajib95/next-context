@@ -15,5 +15,18 @@ a {
   box-sizing: border-box;
 }
 
+#nprogress .bar {
+  background: #fcb040 !important;
+  height: 4px !important;
+}
+#nprogress .spinner {
+  display: none !important;
+}
+
+/* Make clicks pass-through */
+#nprogress {
+  pointer-events: none;
+}
+
 /* ----------- Loading ------------- */
 @import url("./loading.css");
